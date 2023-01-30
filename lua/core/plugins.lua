@@ -321,10 +321,7 @@ local astro_plugins = {
   },
   
   -- Scala Language Server
-  ["scalameta/nvim-metals"] = {
-    requires = {"nvim-lua/plenary.nvim"}, 
-    config = function() require "configs.nvim-metals" end,
-  },
+  ["scalameta/nvim-metals"] = {},
 }
 
 if astronvim.updater.snapshot then
