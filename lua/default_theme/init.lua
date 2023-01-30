@@ -37,6 +37,7 @@ for plugin, enabled in
     treesitter = true,
     vimwiki = false,
     ["which-key"] = true,
+    nvim-metals = true,
   }))
 do
   if enabled then highlights = vim.tbl_deep_extend("force", highlights, require("default_theme.plugins." .. plugin)) end
