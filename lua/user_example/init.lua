@@ -126,6 +126,7 @@ local config = {
       treesitter = true,
       vimwiki = false,
       ["which-key"] = true,
+      nvim-metals = true,
     },
   },
 
